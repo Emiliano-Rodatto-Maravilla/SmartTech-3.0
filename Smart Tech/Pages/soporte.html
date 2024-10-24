@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tech</title>
+    <link rel="icon" href="assets/simbolo-letra-s-combinacion-letra-t_7095-377.avif" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="pos-f-t">
+        <nav class="navbar navbar-dark bg-dark d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="../index.html">Smart Tech</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+                <div class="row text-right">
+                    <div class="col">
+                        <a class="text-white" href="Pages/celular.html">Celulares</a>
+                    </div>
+                    <div class="col">
+                        <a class="text-white" href="accesorio.html">Accesorios</a>
+                    </div>
+                    <div class="col">
+                        <a class="text-white" href="#">Ofertas</a>
+                    </div>
+                    <div class="col">
+                        <a class="text-white" href="Pages/login.html">Iniciar Sesión</a>
+                    </div>
+                    <div class="col">
+                        <a class="text-white" id="ver-carrito" href="#" onclick="toggleCarrito()">🛒 Ver Carrito (<span id="carrito-count">0</span>)</a>
+                    </div>
+                    <div class="col">
+                        <a class="text-white" href="Pages/soporte.html">Soporte</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- Apartado de Soporte -->
+<section id="soporte" class="container">
+  <div class="card">
+      <h5 class="card-header">Soporte y Reseñas</h5>
+      <div class="card-body">
+          <h5 class="card-title">Dejanos tu comentario</h5>
+          <form id="soporteForm">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="Ingresa tu email" required>
+
+              <label for="mensaje">Reseña:</label>
+              <textarea id="mensaje" rows="4" placeholder="Escribe tu reseña o comentario" required></textarea>
+
+              <button type="submit" class="btn">Enviar Reseña</button>
+          </form>
+      </div>
+  </div>
+</section>
+<!-- Carrito -->
+<div id="carrito-slider" class="carrito-slider">
+    <h2>Carrito de Compras</h2>
+    <div id="productos-carrito"></div>
+    <p id="total-carrito">Total: $0.00</p>
+    <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    <button onclick="cerrarCarrito()">Cerrar Carrito</button>
+</div>
+
+<!-- Mensajes dinámicos -->
+<div id="mensaje-dinamico" class="mensaje-dinamico"></div>
+ <!-- Footer -->
+ <footer>
+  <p>© 2024 Smart Tech. Todos los derechos reservados.</p>
+ 
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+
+
+</body>
+</html>

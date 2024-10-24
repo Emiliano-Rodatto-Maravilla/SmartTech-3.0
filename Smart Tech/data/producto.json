@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Celular Modelo A",
+        "descripcion": "Este celular cuenta con características de última tecnología, un excelente rendimiento y una cámara de alta calidad.",
+        "marca": "Marca A",
+        "precio": 299,
+        "stock": 50,
+        "categoria": "Celular",
+        "url_imagen": "../assets/celular_1.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Celular Modelo B",
+        "descripcion": "Un teléfono con una pantalla impresionante y una duración de batería excepcional.",
+        "marca": "Marca B",
+        "precio": 399,
+        "stock": 30,
+        "categoria": "Celular",
+        "url_imagen": "../assets/celular_2.jpg"
+
+    },
+    {
+        "id": 3,
+        "nombre": "Auricular Inalambrico",
+        "descripcion": "Para escuchar con todos los detalles.",
+        "marca": "Marca C",
+        "precio": 19.99,
+        "stock": 100,
+        "categoria": "Accesorio",
+        "url_imagen": "../assets/Accesorio_1.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Reloj Inteligente",
+        "descripcion": "Ver la hora y conectarce con el Celular.",
+        "marca": "Marca D",
+        "precio": 150.50,
+        "stock": 100,
+        "categoria": "Accesorio",
+        "url_imagen": "../assets/Accesorio_2.webp"
+    }
+]
+
